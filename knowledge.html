@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دانش حقوقی | مرتضی بشارت لو</title>
+    <style>
+        /* استفاده از همان استایل‌های قبلی برای هماهنگی */
+        :root { --primary-color: #1a2a3a; --accent-color: #d4af37; --text-color: #333; --light-bg: #f4f4f4; --white: #ffffff; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: var(--light-bg); color: var(--text-color); line-height: 1.8; }
+        a { text-decoration: none; }
+
+        header { background-color: var(--primary-color); padding: 15px 0; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
+        nav { display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        .logo { color: var(--accent-color); font-size: 1.2rem; font-weight: bold; }
+        .nav-links a { color: var(--white); margin-right: 20px; font-size: 0.95rem; transition: 0.3s; }
+        .nav-links a:hover, .nav-links a.active { color: var(--accent-color); }
+
+        /* استایل مخصوص صفحه مقالات */
+        .content-container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        
+        .article-card {
+            background: var(--white);
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border-right: 5px solid var(--accent-color); /* خط طلایی سمت راست */
+        }
+
+        .article-card h2 { color: var(--primary-color); margin-top: 0; font-size: 1.5rem; }
+        .article-meta { font-size: 0.85rem; color: #777; margin-bottom: 15px; display: block; }
+        .article-body { text-align: justify; }
+        
+        .back-btn-container { text-align: center; margin-bottom: 40px; }
+        .btn { display: inline-block; background-color: var(--primary-color); color: var(--white); padding: 10px 25px; border-radius: 5px; transition: 0.3s; }
+        .btn:hover { background-color: var(--accent-color); }
+
+        footer { background-color: var(--primary-color); color: var(--white); text-align: center; padding: 20px; margin-top: 50px; }
+
+        @media (max-width: 768px) { nav { flex-direction: column; gap: 10px; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">مرتضی بشارت لو</div>
+            <div class="nav-links">
+                <a href="index.html">خانه</a>
+                <a href="knowledge.html" class="active">دانش حقوقی</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content-container">
+        <h1 style="text-align: center; color: var(--primary-color); margin-bottom: 40px;">دانش حقوقی به زبان ساده</h1>
+
+        <article class="article-card">
+            <h2>۱. نکاتی درباره چک‌های صیادی جدید</h2>
+            <span class="article-meta">دسته‌بندی: حقوق بانکی</span>
+            <div class="article-body">
+                <p>
+                    مهم‌ترین نکته در خصوص چک‌های جدید بنفش رنگ این است که صدور و انتقال آن‌ها حتماً باید در سامانه صیاد ثبت شود. چکی که در سامانه ثبت نشده باشد، عملاً یک کاغذ عادی است و مزایای قانونی چک را ندارد. بنابراین، قبل از دریافت چک از مشتری یا بدهکار، حتماً از ثبت شدن آن در سامانه اطمینان حاصل کنید.
+                </p>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <h2>۲. تفاوت "قولنامه" و "مبایعه‌نامه"</h2>
+            <span class="article-meta">دسته‌بندی: دعاوی ملکی</span>
+            <div class="article-body">
+                <p>
+                    بسیاری از افراد این دو کلمه را به جای هم استفاده می‌کنند. قولنامه صرفاً تعهدی برای انجام معامله در آینده است (قولِ معامله)، اما مبایعه‌نامه سند وقوع معامله و خرید و فروش است. اگر ملکی می‌خرید، حتماً عنوان قرارداد را "مبایعه‌نامه" درج کنید تا مالکیت به شما منتقل شود، نه اینکه صرفاً قولی برای فروش در آینده باشد.
+                </p>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <h2>۳. حضانت فرزند بعد از طلاق</h2>
+            <span class="article-meta">دسته‌بندی: خانواده</span>
+            <div class="article-body">
+                <p>
+                    طبق قانون مدنی ایران، حضانت فرزند (چه دختر و چه پسر) تا سن ۷ سالگی با مادر است. پس از ۷ سالگی، حضانت با پدر خواهد بود مگر اینکه دادگاه تشخیص دهد مصلحت کودک در خطر است. بعد از سن بلوغ (۹ سال برای دختر و ۱۵ سال برای پسر)، خود فرزند انتخاب می‌کند که با کدام یک از والدین زندگی کند.
+                </p>
+            </div>
+        </article>
+
+        <div class="back-btn-container">
+            <a href="index.html" class="btn">بازگشت به صفحه اصلی</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© ۱۴۰۳ - وبسایت رسمی مرتضی بشارت لو</p>
+    </footer>
+
+</body>
+</html>
